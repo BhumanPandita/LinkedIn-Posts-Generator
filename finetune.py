@@ -12,7 +12,8 @@ st.markdown("Powered by GPT-4o-mini fine-tuned model")
 # Text input for topic
 topic = st.text_input("Please enter your topic")
 
-st.code(""" Try:
+st.code(""" 
+            Try:
             What are TRIGGERS in postgres?
             What are Window Functions?
         """,language= None)
